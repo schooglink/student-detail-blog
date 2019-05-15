@@ -1,0 +1,9 @@
+<h1>Student List</h1>
+{{#each this.model as |sd|}}
+  <div>
+    <ul>
+      <li><h3>{{sd.name}}</h3></li>
+    </ul>
+  </div><hr>
+{{/each}}
+{{outlet}}
